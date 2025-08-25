@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package com.miproyecto.numeroprimo;
+import java.util.Scanner;
+/**
+ * 
+ */
+public class NumeroPrimo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float numero=0;
+		boolean esPrimo=true;
+		float resultado=0,i=0;
+		Scanner entrada = new  Scanner(System.in);
+		System.out.println("Ingrese un numero para evaluar si es primo");
+		
+		numero = entrada.nextInt();
+		System.out.println(numero);	
+		for (i=2;i<=numero;i++) {
+			
+			if(resultado % i == 0) {
+				esPrimo = false;
+				break;
+			}
+		}
+		if(esPrimo == true) {
+			System.out.println("Es primo");
+		}else {
+			System.out.println("No es primo");
+			
+		}
+	
+
+	}
+
+}
