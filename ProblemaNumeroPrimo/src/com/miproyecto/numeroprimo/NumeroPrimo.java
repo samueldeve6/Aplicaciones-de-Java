@@ -1,5 +1,5 @@
 /**
- * fgjdkgdjfkgjkdflgfdglkj
+ * 
  */
 package com.miproyecto.numeroprimo;
 import java.util.Scanner;
@@ -35,9 +35,9 @@ public class NumeroPrimo {
 		}
 	    }
 		if(esPrimo == true) {
-			System.out.println("Es primo");
+			System.out.println("SI es primo");
 		}else {
-			System.out.println("No es primo");
+			System.out.println("NO es primo");
 			
 		}
 	
